@@ -1,0 +1,102 @@
+[
+  {
+    "nome": "Smartphone XYZ",
+    "categoria": "Elettronica",
+    "prezzo": 599.99
+  },
+  {
+    "nome": "Laptop Pro 15",
+    "categoria": "Elettronica",
+    "prezzo": 1299.5
+  },
+  {
+    "nome": "Cuffie Wireless Bluetooth",
+    "categoria": "Accessori",
+    "prezzo": 89.9
+  },
+  {
+    "nome": "Smartwatch Sport",
+    "categoria": "Elettronica",
+    "prezzo": 199
+  },
+  {
+    "nome": "Zaino per PC",
+    "categoria": "Accessori",
+    "prezzo": 45
+  },
+  {
+    "nome": "Tastiera Meccanica RGB",
+    "categoria": "Gaming",
+    "prezzo": 120.49
+  },
+  {
+    "nome": "Mouse Ergonomico Wireless",
+    "categoria": "Gaming",
+    "prezzo": 59.99
+  },
+  {
+    "nome": "Monitor 27 pollici 4K",
+    "categoria": "Elettronica",
+    "prezzo": 349
+  },
+  {
+    "nome": "Sedia da Gaming",
+    "categoria": "Arredamento",
+    "prezzo": 210
+  },
+  {
+    "nome": "Lampada da Scrivania LED",
+    "categoria": "Arredamento",
+    "prezzo": 32.5
+  },
+  {
+    "nome": "Borracccia Termica in Acciaio",
+    "categoria": "Sport",
+    "prezzo": 24.99
+  },
+  {
+    "nome": "Tappetino per Yoga",
+    "categoria": "Sport",
+    "prezzo": 19.9
+  },
+  {
+    "nome": "Scarpe da Running",
+    "categoria": "Sport",
+    "prezzo": 85
+  },
+  {
+    "nome": "Felpa con Cappuccio",
+    "categoria": "Abbigliamento",
+    "prezzo": 49.9
+  },
+  {
+    "nome": "Jeans Slim Fit",
+    "categoria": "Abbigliamento",
+    "prezzo": 59.9
+  },
+  {
+    "nome": "Occhiali da Sole Classici",
+    "categoria": "Accessori",
+    "prezzo": 75
+  },
+  {
+    "nome": "Libro di Fantascienza",
+    "categoria": "Libri",
+    "prezzo": 16.5
+  },
+  {
+    "nome": "Manuale di Programmazione",
+    "categoria": "Libri",
+    "prezzo": 42
+  },
+  {
+    "nome": "Macchina per Caffè Espresso",
+    "categoria": "Elettrodomestici",
+    "prezzo": 119.99
+  },
+  {
+    "nome": "Frullatore ad Immersione",
+    "categoria": "Elettrodomestici",
+    "prezzo": 39.99
+  }
+]

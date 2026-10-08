@@ -1,0 +1,135 @@
+:root {
+    --main-color: #166ca5;
+    --main-color-dark: #274D66;
+    --main-light-color: #87b2e2;
+    --secondary-color: #A66A16;
+    --font-color: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    overflow: auto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    /* margin-bottom: 1rem; */
+    padding: 0.5rem;
+}
+
+.loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: var(--main-color-dark);
+    background-color: var(--main-light-color);
+    z-index: 1000;
+}
+
+.loader.hidden {
+    display: none;
+}
+
+.container {
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-color);
+    color: var(--font-color);
+    padding: .5rem;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+    gap: 0.5rem;
+    flex: 1;
+}
+
+.filter-button {
+    background-color: var(--main-color-dark);
+    color: var(--font-color);
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    /* margin: 0 0.5rem; */
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.filter-button:hover {
+    background-color: var(--secondary-color);
+}
+
+#cards-container {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    ;
+    width: 100%;
+    padding: 1rem;
+    /* background-color: var(--main-color-dark); */
+    overflow-y: auto;
+}
+
+.card {
+    position: relative;
+    background-color: var(--main-light-color);
+    color: var(--main-color-dark);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    min-width: 350px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    background-color: var(--main-color-dark);
+    color: var(--font-color);
+    cursor: pointer;
+}
+
+.card:hover .prezzo {
+    color: var(--font-color);
+}
+
+.card h3 {
+    padding:.5rem 0;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid var(--main-color-dark);
+}
+
+.prezzo {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    text-align: right;
+    color: var(--main-color-dark);
+}
